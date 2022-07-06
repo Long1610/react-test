@@ -1,11 +1,11 @@
 import { useRoutes } from "react-router-dom";
-import Layout from "../components/common-layout";
-import RequireAuth from "../components/require-auth";
-import About from "../pages/about";
-import Home from "../pages/home";
-import LoginPage from "../pages/login";
-import Menu from "../pages/menu";
-import Protected from "../pages/protected";
+import RequireAuth from "@/components/require-auth";
+import About from "@/pages/about";
+import Home from "@/pages/home";
+import LoginPage from "@/pages/login";
+import Menu from "@/pages/menu";
+import Protected from "@/pages/protected";
+import Layout from "@/components/common-layout";
 
 function routes() {
   const routes = useRoutes([

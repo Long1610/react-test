@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import Redux from "./pages/about/redux";
 import AuthProvider from "./providers/AuthProvider";
 import routes from "./routes";
 
@@ -7,6 +8,7 @@ export default function App() {
   console.log(location.pathname)
   return (
     <AuthProvider>
+      <Redux />
       <h1>Auth Example</h1>
 
       <p>
